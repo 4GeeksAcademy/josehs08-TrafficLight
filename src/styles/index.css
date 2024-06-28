@@ -10,3 +10,55 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+*{
+    border: 1px dashed red;
+}
+
+body{
+    background-color: #282A36;
+}
+
+
+.semaforo button{
+    border: none;
+    border-radius: 1000px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+}
+
+.semaforo{
+    border-radius: 30px;
+    padding: 10px;
+    width: 130px;
+    background-color: black;
+}
+
+.rojo{
+    background-color: #FF5555;
+}
+
+.verde{
+    background-color: #50FA7B;
+}
+
+.amarillo{
+    background-color: #F1FA8C;
+}
+
+.morado{
+    background-color: #BD93F9;
+}
+
+.option{
+    background-color: #6272A4;
+}
+
+.encendido{
+    box-shadow: 0 0 20px yellow;
+}
+
+.inactivo{
+    filter: brightness(20%);
+}
